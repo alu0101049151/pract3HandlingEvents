@@ -4,4 +4,4 @@ title: Ejercicios
 permalink: /ejercicios/
 ---
 
-[mouse_trail](/"exercises/mouse-trail.html")
+[mouse_trail](mouse-trail.html)
