@@ -35,3 +35,6 @@ Un ejemplo del uso de estos métodos se ve en el siguiente código:
 button.addEventListener("click", once);
 </script>
 {% endhighlight %}
+
+
+OJO, la función que le pasemos a `removalEventListener` debe tener el mismo valor de función que fue pasado a `addEventListener`.
