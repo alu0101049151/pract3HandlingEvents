@@ -28,7 +28,7 @@ A continuación se muestra un ejemplo en el cual, cuando se pulsa el botón con 
 </script>
 {% endhighlight %}
 
-Así mismo, los _event objects_ poseen una propiedad llamada *target* que se refiere al nodo en el que fue originado el evento. Así pues, se puede utilizar dicha propiedad para asegurarnos de qeu no capturamos accidentalmente algún evento que no queremos capturar que se ha propagado desde "abajo" hacia el nodo.
+Así mismo, los _event objects_ poseen una propiedad llamada *target* que se refiere al nodo en el que fue originado el evento. Así pues, se puede utilizar dicha propiedad para asegurarnos de que no capturamos accidentalmente algún evento que no queremos capturar que se ha propagado desde "abajo" hacia el nodo.
 Así mismo, es posible también usar la propiedad *target* para lanzar una amplia "red" que capture una serie de eventos específicos.
 Por ejemplo, si tienemos un nodo que contiene una lista de botones, puede que sea más conveniente registrar un capturardor para un único click en el nodo más externo y usar su propiedad *target* para comprobar cuando otro nodo ha sido pulsado, que registrar cada uno de los capturadores de cada botón individualmente:
 
